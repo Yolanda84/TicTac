@@ -16,13 +16,13 @@ namespace TicTac {
 
         public TicTacNotToh() {
             InitializeComponent();
+
         }
 
+	
         private void btnOne_Click(object sender, EventArgs e) {
 
             btnOne.Text = ticTacBtn;
-            
-
         }
 
         private void btnTwo_Click(object sender, EventArgs e) {
@@ -65,7 +65,16 @@ namespace TicTac {
             btnNine.Text = ticTacBtn;
         }
 
-       
-                
+        public bool validateTicTaToh() {
+
+            if (btnOne.Text == "X" && btnTwo.Text == "X" && btnThree.Text == "X") {
+
+                MessageBox.Show("You won");
+            }
+
+            return true;
+        }
+
+                        
     }
 }

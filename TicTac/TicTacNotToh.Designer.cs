@@ -39,13 +39,12 @@
             this.btnOne.Location = new System.Drawing.Point(12, 22);
             this.btnOne.Name = "btnOne";
             this.btnOne.Size = new System.Drawing.Size(75, 79);
-            this.btnOne.TabIndex = 0;
-            this.btnOne.UseVisualStyleBackColor = true;
+            this.btnOne.TabIndex = 9;
             this.btnOne.Click += new System.EventHandler(this.btnOne_Click);
             // 
             // btnSix
             // 
-            this.btnSix.Location = new System.Drawing.Point(184, 107);
+            this.btnSix.Location = new System.Drawing.Point(174, 107);
             this.btnSix.Name = "btnSix";
             this.btnSix.Size = new System.Drawing.Size(75, 79);
             this.btnSix.TabIndex = 1;
@@ -54,7 +53,7 @@
             // 
             // btnFive
             // 
-            this.btnFive.Location = new System.Drawing.Point(102, 107);
+            this.btnFive.Location = new System.Drawing.Point(93, 107);
             this.btnFive.Name = "btnFive";
             this.btnFive.Size = new System.Drawing.Size(75, 79);
             this.btnFive.TabIndex = 2;
@@ -72,7 +71,7 @@
             // 
             // btnThree
             // 
-            this.btnThree.Location = new System.Drawing.Point(184, 22);
+            this.btnThree.Location = new System.Drawing.Point(174, 22);
             this.btnThree.Name = "btnThree";
             this.btnThree.Size = new System.Drawing.Size(75, 79);
             this.btnThree.TabIndex = 4;
@@ -81,7 +80,7 @@
             // 
             // btnTwo
             // 
-            this.btnTwo.Location = new System.Drawing.Point(102, 22);
+            this.btnTwo.Location = new System.Drawing.Point(93, 22);
             this.btnTwo.Name = "btnTwo";
             this.btnTwo.Size = new System.Drawing.Size(75, 79);
             this.btnTwo.TabIndex = 5;
@@ -99,7 +98,7 @@
             // 
             // btnNine
             // 
-            this.btnNine.Location = new System.Drawing.Point(184, 192);
+            this.btnNine.Location = new System.Drawing.Point(174, 192);
             this.btnNine.Name = "btnNine";
             this.btnNine.Size = new System.Drawing.Size(75, 79);
             this.btnNine.TabIndex = 7;
@@ -108,7 +107,7 @@
             // 
             // btnEight
             // 
-            this.btnEight.Location = new System.Drawing.Point(102, 192);
+            this.btnEight.Location = new System.Drawing.Point(93, 192);
             this.btnEight.Name = "btnEight";
             this.btnEight.Size = new System.Drawing.Size(75, 79);
             this.btnEight.TabIndex = 8;
@@ -123,12 +122,12 @@
             this.Controls.Add(this.btnEight);
             this.Controls.Add(this.btnNine);
             this.Controls.Add(this.btnSeven);
-            this.Controls.Add(this.btnTwo);
+            this.Controls.Add(this.btnOne);
             this.Controls.Add(this.btnThree);
             this.Controls.Add(this.btnFour);
             this.Controls.Add(this.btnFive);
             this.Controls.Add(this.btnSix);
-            this.Controls.Add(this.btnOne);
+            this.Controls.Add(this.btnTwo);
             this.MaximizeBox = false;
             this.Name = "TicTacNotToh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -146,7 +145,7 @@
         private System.Windows.Forms.Button btnSeven;
         private System.Windows.Forms.Button btnNine;
         private System.Windows.Forms.Button btnEight;
-        public System.Windows.Forms.Button btnOne;
+        private System.Windows.Forms.Button btnOne;
     }
 }
 
