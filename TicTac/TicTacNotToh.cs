@@ -79,6 +79,9 @@ namespace TicTac {
             if (btnOne.Text == ticTacBtn && btnTwo.Text == ticTacBtn && btnThree.Text == ticTacBtn) {
 
                 MessageBox.Show("You won");
+                btnOne.Text = "";
+                btnTwo.Text = "";
+                btnThree.Text = "";
             }
 
             else if (btnFour.Text == ticTacBtn && btnFive.Text == ticTacBtn && btnSix.Text == ticTacBtn) {
@@ -115,8 +118,6 @@ namespace TicTac {
 
                 MessageBox.Show("You won");
             }
-        }
-
-                        
+        }         
     }
 }
