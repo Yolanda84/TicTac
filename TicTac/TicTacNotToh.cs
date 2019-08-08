@@ -80,6 +80,41 @@ namespace TicTac {
 
                 MessageBox.Show("You won");
             }
+
+            else if (btnFour.Text == ticTacBtn && btnFive.Text == ticTacBtn && btnSix.Text == ticTacBtn) {
+
+                MessageBox.Show("You won");
+            }
+
+            else if (btnSeven.Text == ticTacBtn && btnEight.Text == ticTacBtn && btnNine.Text == ticTacBtn) {
+
+                MessageBox.Show("You won");
+            }
+
+            else if (btnOne.Text == ticTacBtn && btnFour.Text == ticTacBtn && btnSeven.Text == ticTacBtn) {
+
+                MessageBox.Show("You won");
+            }
+
+            else if (btnTwo.Text == ticTacBtn && btnFive.Text == ticTacBtn && btnEight.Text == ticTacBtn) {
+
+                MessageBox.Show("You won");
+            }
+
+            else if (btnThree.Text == ticTacBtn && btnSix.Text == ticTacBtn && btnNine.Text == ticTacBtn) {
+
+                MessageBox.Show("You won");
+            }
+
+            else if (btnOne.Text == ticTacBtn && btnFive.Text == ticTacBtn && btnNine.Text == ticTacBtn) {
+
+                MessageBox.Show("You won");
+            }
+
+            else if (btnThree.Text == ticTacBtn && btnFive.Text == ticTacBtn && btnSeven.Text == ticTacBtn) {
+
+                MessageBox.Show("You won");
+            }
         }
 
                         
